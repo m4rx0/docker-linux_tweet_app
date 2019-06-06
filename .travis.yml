@@ -6,7 +6,7 @@ services:
 language: bash
 
 before_script:
-    - "docker build -t <Your Docker ID>/autobuilds ."
+    - "docker build -t m4rx/linux_tweet_app ."
     - "docker container run --detach --publish 8080:80 m4rx/linux_tweet_app"
     - docker ps
 

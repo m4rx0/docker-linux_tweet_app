@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/m4rx0/docker-linux_tweet_app.svg?branch=dev)](https://travis-ci.org/m4rx0/docker-linux_tweet_app)
+
 # Linux Tweet App
 
 This is very simple NGINX website that allows a user to send a tweet. 
